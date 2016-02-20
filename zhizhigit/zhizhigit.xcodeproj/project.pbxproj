@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047112D41C77441B002D7C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047112D31C77441B002D7C69 /* main.m */; };
+		04E00DA01C77E62F005420D4 /* condition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04E00D9B1C77E62F005420D4 /* condition.mm */; };
+		04E00DA11C77E62F005420D4 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04E00D9D1C77E62F005420D4 /* main.mm */; };
+		04E00DA21C77E62F005420D4 /* pthreadpool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04E00D9E1C77E62F005420D4 /* pthreadpool.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		047112D01C77441B002D7C69 /* zhizhigit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zhizhigit; sourceTree = BUILT_PRODUCTS_DIR; };
-		047112D31C77441B002D7C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E00D9B1C77E62F005420D4 /* condition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = condition.mm; sourceTree = "<group>"; };
+		04E00D9C1C77E62F005420D4 /* condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = condition.h; sourceTree = "<group>"; };
+		04E00D9D1C77E62F005420D4 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		04E00D9E1C77E62F005420D4 /* pthreadpool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = pthreadpool.mm; sourceTree = "<group>"; };
+		04E00D9F1C77E62F005420D4 /* pthreadpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthreadpool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		047112D21C77441B002D7C69 /* zhizhigit */ = {
 			isa = PBXGroup;
 			children = (
-				047112D31C77441B002D7C69 /* main.m */,
+				04E00D9B1C77E62F005420D4 /* condition.mm */,
+				04E00D9C1C77E62F005420D4 /* condition.h */,
+				04E00D9D1C77E62F005420D4 /* main.mm */,
+				04E00D9E1C77E62F005420D4 /* pthreadpool.mm */,
+				04E00D9F1C77E62F005420D4 /* pthreadpool.h */,
 			);
 			path = zhizhigit;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047112D41C77441B002D7C69 /* main.m in Sources */,
+				04E00DA01C77E62F005420D4 /* condition.mm in Sources */,
+				04E00DA21C77E62F005420D4 /* pthreadpool.mm in Sources */,
+				04E00DA11C77E62F005420D4 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				047112D91C77441B002D7C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
